@@ -1,0 +1,34 @@
+{
+    "name": "zhylon/helpers",
+    "description": "This package enables support for your sites deployed with Zhylon.",
+    "keywords": [
+        "TobyMaxham",
+        "zhylon"
+    ],
+    "homepage": "https://github.com/Zhylon/helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":TobyMaxham",
+            "email": "git@maxham.de",
+            "homepage": "https://maxham.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhylon\\Helpers\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
